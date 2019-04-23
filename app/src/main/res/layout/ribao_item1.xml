@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical">
+
+    <com.youth.banner.Banner
+        android:id="@+id/ban"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></com.youth.banner.Banner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="今日新闻"
+        android:padding="10dp"
+        android:textSize="17sp" />
+</LinearLayout>

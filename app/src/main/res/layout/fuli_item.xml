@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:src="@color/c_cccccc"
+        android:id="@+id/iv_fuli"
+        android:layout_height="wrap_content" />
+</LinearLayout>

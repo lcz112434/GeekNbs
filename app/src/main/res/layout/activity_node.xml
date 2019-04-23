@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".Activity.NodeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:id="@+id/node_toobar"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@mipmap/ic_close"
+            android:id="@+id/iv_finsh"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="节点导航"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+   <android.support.v7.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:id="@+id/rlv_node"
+       android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

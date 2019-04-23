@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lcz.geek">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".Base.BaseApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_drawer_wechat"
+        android:label="@string/Geek"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.Specia_itemActivity" />
+        <activity android:name=".Activity.WebActivity" />
+        <activity android:name=".Activity.TimeActivity" />
+        <activity android:name=".Activity.ShowActivity" />
+        <activity
+            android:name=".Activity.NodeActivity"
+            android:theme="@style/Theme" />
+        <activity android:name=".Activity.FlowActivity" />
+        <activity android:name=".Activity.MaterialActivity" />
+        <activity android:name=".Activity.RibaoDetailActivity"></activity>
+    </application>
+
+</manifest>
